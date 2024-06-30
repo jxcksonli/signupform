@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodoni-moda-logo {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50vw;
+}
+
+.leftimage {
+    display: flex;
+    background-image: url("images/ocean_sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    flex-direction: column;
+}
+
+.upperspace {
+    height: 30vh;
+}
+
+.logo {
+    background-color: rgb(0, 0, 0, .2);
+    height: 15vh;
+}
+
+.logo-text {
+    text-align: center;
+    padding: 3vh;
+    color: white;
+    font-size: 64px;
+}
+
+.form {
+    display: flex;
+    width: 60vw;
+}
