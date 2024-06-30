@@ -14,7 +14,7 @@
 .container {
     display: flex;
     flex-direction: row;
-    height: 50vw;
+    height: 70vw;
 }
 
 .leftimage {
@@ -45,4 +45,20 @@
 .form {
     display: flex;
     width: 60vw;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.whitespace {
+    height: 20vh;
+}
+
+.aboutus{
+    padding: 12px;
+    background-color: rgb(199, 245, 245, 0.3);
+}
+.about-us-text{
+    font-size: 24px;
+    font-family: sans-serif;
+
 }
