@@ -71,17 +71,21 @@
     flex-direction: column;
 }
 
+.otherfunctions{
+    width: 30vh;
+}
 .create-acc {
     background-color: #5198c8;
     color: white;
     border-radius: 5%;
     width: 10vw;
     height: 3vh;
-    font-size: 12px;
+    font-size: 16px;
     transition: 0.2s;
+    font-weight: bold;
 }
 
 .create-acc:hover{
-    background-color: #9ccfc0;
+    background-color: #E0E0E0;
     color: #5198c8;
 }
