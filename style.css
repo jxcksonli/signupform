@@ -59,6 +59,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .whitespace {
@@ -67,7 +72,12 @@
 
 .aboutus{
     padding: 12px;
-    background-color: rgb(199, 245, 245, 0.3);
+    background-color: #E5E7EB;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .about-us-text{
     font-size: 24px;
@@ -103,6 +113,11 @@
     transition: 0.2s;
     font-weight: bold;
     margin: 2vh;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .create-acc:hover{
