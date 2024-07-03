@@ -124,3 +124,35 @@
     background-color: powderblue;
     color: white;
 }
+
+#email:valid {
+    border-color: green
+}
+
+#email:invalid {
+    border-color: red
+}
+
+#phone_number:valid {
+    border-color: green
+}
+
+#phone_number:invalid {
+    border-color: red
+}
+
+#first_name:valid {
+    border-color: green
+}
+
+#first_name:invalid {
+    border-color: red
+}
+
+#last_name:valid {
+    border-color: green
+}
+
+#last_name:invalid {
+    border-color: red
+}
