@@ -43,6 +43,10 @@
     font-size: 64px;
 }
 
+.aboveform {
+    height: 10vh;
+}
+
 .form {
     display: flex;
     width: 60vw;
@@ -52,6 +56,9 @@
 
 .forms{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .whitespace {
@@ -69,11 +76,17 @@
 .doubleinputs{
     display: flex;
     flex-direction: row;
+    margin: 2vh;
 }
 
 .individualinput{
     display: flex;
     flex-direction: column;
+    margin: 1vw;
+}
+
+.individualinput:focus {
+    border: blue;
 }
 
 .otherfunctions{
@@ -89,6 +102,7 @@
     font-size: 16px;
     transition: 0.2s;
     font-weight: bold;
+    margin: 2vh;
 }
 
 .create-acc:hover{
