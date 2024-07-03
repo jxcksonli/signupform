@@ -47,11 +47,15 @@
     display: flex;
     width: 60vw;
     flex-direction: column;
-    align-items: center;
+}
+
+
+.forms{
+    background-color: #E5E7EB;
 }
 
 .whitespace {
-    height: 20vh;
+    height: 15vh;
 }
 
 .aboutus{
@@ -74,19 +78,20 @@
 
 .otherfunctions{
     width: 30vh;
+    align-self: center;
 }
 .create-acc {
-    background-color: #5198c8;
+    background-color: #e0836e;
     color: white;
     border-radius: 5%;
     width: 10vw;
-    height: 3vh;
+    height: 4vh;
     font-size: 16px;
     transition: 0.2s;
     font-weight: bold;
 }
 
 .create-acc:hover{
-    background-color: #E0E0E0;
-    color: #5198c8;
+    background-color: powderblue;
+    color: white;
 }
